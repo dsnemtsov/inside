@@ -1,0 +1,23 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/inside
+    username: postgres
+    password: root
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+
+  flyway:
+    user: postgres
+    password: root
+    schemas: public
+    url: jdbc:postgresql://localhost:5432/inside
+
+jwt-token-secret: mysecret
+jwt-token-expired: 36000000000000
+
