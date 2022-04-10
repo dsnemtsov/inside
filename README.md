@@ -35,7 +35,7 @@ JWT token:
 ---
 База данных:
 
-![](../../../Downloads/public.png)
+![](schema.png)
 
 ---
 curl:
