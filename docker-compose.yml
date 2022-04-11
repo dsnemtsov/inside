@@ -3,8 +3,7 @@ version: '3.7'
 services:
   app:
     container_name: springboot-postgresql
-    image: springboot-postgresql
-    build: ./
+    image: dimas224/springboot-postgresql:app1.0
     ports:
       - "8081:8081"
     depends_on:
